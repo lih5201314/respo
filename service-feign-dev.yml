@@ -5,6 +5,9 @@ eureka:
 server:
   port: 8081
 spring:
+  data:
+    solr:
+      host: http://127.0.0.1:8080/solr
   application:
     name: service-feign
   thymeleaf:
