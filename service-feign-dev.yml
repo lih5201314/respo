@@ -9,7 +9,7 @@ spring:
      solr:
             host: http://127.0.0.1:8109/solr
             repositories: enabled=true
-            zk-host: '127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183 '
+            zk-host: '127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183'
   application:
     name: service-feign
   thymeleaf:
