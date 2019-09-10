@@ -10,6 +10,12 @@ spring:
             host: http://127.0.0.1:8109/solr
             repositories: enabled=true
             zk-host: '127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183'
+    elasticsearch:
+      repositories:
+        enabled: true
+      cluster-nodes: 127.0.0.1:9300
+      cluster-name: my-application
+
   application:
     name: service-feign
   thymeleaf:
