@@ -21,4 +21,4 @@ spring:
     allow-bean-definition-overriding: true
 feign:
   hystrix:
-    enabled: true
+    enabled: false
